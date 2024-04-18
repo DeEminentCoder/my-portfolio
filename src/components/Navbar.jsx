@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Navbar.css";
 // import "bootstrap/dist/js/bootstrap.js";
-const DownloadOptions = ({ href, downloadData, onDownloadClick }) => {
+const DownloadOptions = ({ href }) => {
   return (
     <div className="dropdown">
       <button
@@ -28,9 +28,8 @@ const DownloadOptions = ({ href, downloadData, onDownloadClick }) => {
         </li>
         <li className="nav-item btn btn-sm p-0">
           <a
-            target="_blank"
+            href="Kehinde_Olaleye_CV_Front_End.pdf"
             className="dropdown-item nav-link btn btn-sm text-white m-0 py-1"
-            onClick={onDownloadClick}
           >
             PDF
           </a>
@@ -41,27 +40,6 @@ const DownloadOptions = ({ href, downloadData, onDownloadClick }) => {
 };
 
 const Navbar = () => {
-  const [isDownloading, setIsDownloading] = useState(false);
-
-  const downloadResume = async () => {
-    setIsDownloading(true);
-
-    const resumeData =
-      "This is your resume content in text format"; 
-
-    const blob = new Blob([resumeData], { type: "application/pdf" }); 
-    const url = window.URL.createObjectURL(blob);
-
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "Kehinde Olaleye CV. Front_End.pdf"; 
-    link.click();
-
-    window.URL.revokeObjectURL(url);
-    setIsDownloading(false);
-  };
-
-  const resumeUrl = "https://example.com/your-resume.pdf";
 
   return (
     <div id="Home">
@@ -170,10 +148,6 @@ const Navbar = () => {
                   <li className="nav-item">
                     <DownloadOptions
                       href="https://www.linkedin.com/in/kehinde-olaleye-307229123/"
-                      downloadData={downloadResume} // Pass the download function
-                      onDownloadClick={
-                        isDownloading ? () => {} : downloadResume
-                      } // Disable download click if already downloading
                     />
                   </li>
                 </div>
