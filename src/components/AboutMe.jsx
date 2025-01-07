@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+// eslint-disable-next-line no-unused-vars
 import React, { useRef, useEffect } from "react";
 import "../AboutMe.css";
 
