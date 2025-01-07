@@ -21,7 +21,7 @@ const Projects = () => {
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://paypalstaticwebclone.netlify.app/"
+                  href="https://paypal-clone-k.netlify.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>

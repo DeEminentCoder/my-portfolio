@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "../Navbar.css";
 // import "bootstrap/dist/js/bootstrap.js";
+// eslint-disable-next-line react/prop-types
 const DownloadOptions = ({ href }) => {
   return (
     <div className="dropdown">
