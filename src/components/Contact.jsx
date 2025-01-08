@@ -1,7 +1,48 @@
-import React from "react";
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/no-unescaped-entities */
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from 'react';
 import "../Contact.css";
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
+    });
+  
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData((prevData) => ({
+        ...prevData,
+        [name]: value,
+      }));
+    };
+  
+    const handleSubmit = async (e) => {
+      e.preventDefault(); // Prevent the default form submission behavior
+  
+      try {
+        const response = await fetch('http://localhost:5000/send-email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+  
+        if (response.ok) {
+          alert('Email sent successfully!');
+        } else {
+          alert('Failed to send email. Please try again.');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('An error occurred while sending the email.');
+      }
+    };
+  
   return (
     <>
       <div id="Contact" className="p-lg-5 bg-dark">
@@ -98,85 +139,85 @@ const Contact = () => {
             </ul>
           </div>
 
-          <form action="" className="hidden contact-form rounded-5 p-5">
-            <div className="form-wrapper">
-              <label for="name" className="form-label">
-                <i className="fa fa-user"></i> Name
-              </label>
+          <form
+      className="hidden contact-form rounded-5 p-5"
+      onSubmit={handleSubmit}
+    >
+      <div className="form-wrapper">
+        <label htmlFor="name" className="form-label">
+          <i className="fa fa-user"></i> Name
+        </label>
+        <div className="input-wrapper">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="ex. James Akin"
+            className="input-field form-control"
+            value={formData.name}
+            onChange={handleChange}
+          />
+        </div>
+      </div>
+      <div className="form-wrapper">
+        <label htmlFor="email" className="form-label">
+          <i className="fa fa-envelope"></i> Email
+        </label>
+        <div className="input-wrapper">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="ex. Jamesakin10@mail.com"
+            className="input-field form-control"
+            value={formData.email}
+            onChange={handleChange}
+          />
+        </div>
+      </div>
+      <div className="form-wrapper">
+        <label htmlFor="phone" className="form-label">
+          <i className="fa fa-phone"></i> Phone
+        </label>
+        <div className="input-wrapper">
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            required
+            placeholder="Phone Number"
+            className="input-field form-control"
+            value={formData.phone}
+            onChange={handleChange}
+          />
+        </div>
+      </div>
+      <div className="form-wrapper">
+        <label htmlFor="message" className="form-label">
+          <i className="fa fa-edit"></i> Message
+        </label>
+        <div className="input-wrapper">
+          <textarea
+            name="message"
+            id="message"
+            required
+            placeholder="Write message..."
+            className="input-field form-control"
+            value={formData.message}
+            onChange={handleChange}
+          ></textarea>
+        </div>
+      </div>
+      <button className="btn btn-success bg-gradient w-100 send-button text-center" type="submit">
+        <div className="alt-send-button text-center">
+          <i className="fa fa-paper-plane"></i>
+          <span className="send-text">SEND</span>
+        </div>
+      </button>
+    </form>
 
-              <div className="input-wrapper">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  required
-                  placeholder="ex. James Akin"
-                  className="input-field form-control"
-                ></input>
-              </div>
-            </div>
-
-            <div className="form-wrapper">
-              <label for="email" className="form-label">
-                <i className="fa fa-envelope"></i> Email
-              </label>
-
-              <div className="input-wrapper">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  placeholder="ex. Jamesakin10@mail.com"
-                  className="input-field form-control"
-                ></input>
-              </div>
-            </div>
-
-            <div className="form-wrapper">
-              <label for="phone" className="form-label">
-                <i className="fa fa-phone"></i> Phone
-              </label>
-
-              <div className="input-wrapper">
-                <input
-                  type="tel"
-                  name="phone"
-                  id="phone"
-                  required
-                  placeholder="Phone Number"
-                  className="input-field form-control"
-                ></input>
-              </div>
-            </div>
-
-            <div className="form-wrapper">
-              <label for="message" className="form-label">
-                <i className="fa fa-edit"></i> Message
-              </label>
-
-              <div className="input-wrapper">
-                <textarea
-                  name="message"
-                  id="message"
-                  required
-                  placeholder="Write message..."
-                  className="input-field form-control"
-                ></textarea>
-              </div>
-            </div>
-            <button
-              className="btn btn-success bg-gradient w-100 send-button text-center"
-              id="submit"
-              type="submit"
-              value="SEND"
-            >
-              <div className="alt-send-button text-center ">
-                <i className="fa fa-paper-plane"></i>
-                <span className="send-text">SEND</span>
-              </div>
-            </button>
-          </form>
         </section>
       </div>
 
