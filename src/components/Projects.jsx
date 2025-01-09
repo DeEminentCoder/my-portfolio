@@ -32,7 +32,7 @@ const Projects = () => {
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
