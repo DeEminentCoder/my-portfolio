@@ -6,10 +6,7 @@ import cors from 'cors';
 
 const app = express();
 const PORT = 5000;
-app.get('/', (req, res) => {
-    res.send('Backend server is running.');
-  });
-  
+
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
@@ -19,16 +16,18 @@ app.post('/send-email', async (req, res) => {
   const { name, email, phone, message } = req.body;
 
   const transporter = nodemailer.createTransport({
-    service: 'Gmail',
+    host: 'smtp.office365.com',
+    port: 587,
+    secure: false,
     auth: {
-      user: 'simeonkenny@outlook.com', // Replace with your email
-      pass: 'Jeh0vahG0d', // Replace with your app password
+      user: 'simeonkenny@outlook.com', 
+      pass: 'lonerosk081o', 
     },
   });
 
   const mailOptions = {
     from: email,
-    to: 'simeonkenny@outlook.com', // Your email to receive messages
+    to: 'simeonkenny@outlook.com', 
     subject: `Message from ${name}`,
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
   };

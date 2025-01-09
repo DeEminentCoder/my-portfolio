@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import "../project.css";
 
@@ -11,6 +12,30 @@ const Projects = () => {
         Latest Projects
       </h1>
       <div className="row d-flex justify-content-center align-items-center p-5 gap- container-fluid m-0">
+        <div className="hidden col col-lg-6 pb- mb-4">
+          <div className="card">
+            <img className="card__background" src="techcare.png" alt="" />
+            <div className="card__content | flow p-4 ">
+              <div className="card__content--container | flow">
+                <h2 className="card__title">Healthcare Dashboard</h2>
+              </div>
+              <div className="card__button d-flex align-items-center justify-content-center social">
+                <a
+                  target="_blank"
+                  href="https://techcare-bn572osvl-simeonkennys-projects.vercel.app/"
+                >
+                  <i className="fa fa-link " aria-hidden="true"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/HealthCare-Dashboard"
+                >
+                  <i className="fa fa-file-code-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card">
             <img className="card__background" src="de.jpg" alt="" />

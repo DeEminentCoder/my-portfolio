@@ -41,6 +41,7 @@ const Contact = () => {
         console.error('Error:', error);
         alert('An error occurred while sending the email.');
       }
+      
     };
   
   return (
