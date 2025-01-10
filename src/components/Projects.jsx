@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6 pb- mb-4"> 
+        <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="wee.png" alt="" />
             <div className="card__content | flow p-4 ">
