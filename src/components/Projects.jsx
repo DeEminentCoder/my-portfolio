@@ -30,7 +30,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://github.com/DeEminentCoder/HealthCare-Dashboard"
                 >
-                  <i className="fa fa-file-code-o" aria-hidden="true"></i>
+                  <i className="fa fa-file-code-o" a ria-hidden="true"></i>
                 </a>
               </div> 
             </div>
