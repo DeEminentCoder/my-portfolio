@@ -60,9 +60,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6 pb- mb-4">
+        <div className="hidden col col-lg-6 pb- mb-4"> 
           <div className="card ">
-            <img className="card__background" src="wee.png" alt="" />
+            <img className="card__ background" src="wee.png" alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
                 <h2 className="card__title">Konga Clone (E-commerce)</h2>
