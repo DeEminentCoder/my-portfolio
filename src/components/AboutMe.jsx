@@ -36,7 +36,7 @@ const AboutMe = () => {
             <img
               src="fb.jpg"
               alt=""
-              width={s}
+              width={300}
               className="rounded-4 about-img shadow p-1 "
             />
           </div>
