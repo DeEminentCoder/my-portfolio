@@ -48,6 +48,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://paypal-clone-k.netlify.app/"
                 >
+                  <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
