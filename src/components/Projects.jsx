@@ -47,7 +47,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href="https://paypal-clone-k.netlify.app/"
-                >Z
+                >
                 </a>
                 <a
                   target="_blank"
