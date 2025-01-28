@@ -64,6 +64,7 @@ const Projects = () => {
           <div className="card ">
             <img className="card__background" src="wee.png" alt="" />
               <div className="card__content--container | flow">
+                <h2 className="card__title">Konga Clone (E-commerce)</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
