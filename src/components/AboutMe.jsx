@@ -47,6 +47,7 @@ const AboutMe = () => {
             <span className="text-white ">
               Hello, my name is Kehinde Olaleye, and I'm a front-end engineer
               specializing in building modern web experiences with HTML, CSS,
+              and Javascript (React.js). I also have experience with Bootstrap,
               Tailwind, WordPress, SEO, and Figma. I'm passionate about creating
               user-friendly and visually appealing websites that meet the needs
               of my clients. I'm also a strong believer in the importance of
