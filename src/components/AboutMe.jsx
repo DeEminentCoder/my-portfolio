@@ -48,6 +48,7 @@ const AboutMe = () => {
               Hello, my name is Kehinde Olaleye, and I'm a front-end engineer
               specializing in building modern web experiences with HTML, CSS,
               Tailwind, WordPress, SEO, and Figma. I'm passionate about creating
+              user-friendly and visually appealing websites that meet the needs
               of my clients. I'm also a strong believer in the importance of
               and technologies in the web development field.
             </span>
