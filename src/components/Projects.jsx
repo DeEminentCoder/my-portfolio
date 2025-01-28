@@ -54,6 +54,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://github.com/DeEminentCoder/Paypal-clone"
                 >
+                  <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
