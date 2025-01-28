@@ -50,6 +50,7 @@ const AboutMe = () => {
               Tailwind, WordPress, SEO, and Figma. I'm passionate about creating
               user-friendly and visually appealing websites that meet the needs
               of my clients. I'm also a strong believer in the importance of
+              continuous learning and staying up to date with the latest trends
               and technologies in the web development field.
             </span>
             <div className="row p-3 d-flex align-content-start justify-content-start gap-3">
