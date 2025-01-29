@@ -58,7 +58,6 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
