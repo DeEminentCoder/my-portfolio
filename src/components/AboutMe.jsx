@@ -46,6 +46,7 @@ const AboutMe = () => {
             </h2>
             <span className="text-white ">
               Hello, my name is Kehinde Olaleye, and I'm a front-end engineer
+              Tailwind, WordPress, SEO, and Figma. I'm passionate about creating
               user-friendly and visually appealing websites that meet the needs
               of my clients. I'm also a strong believer in the importance of
               continuous learning and staying up to date with the latest trends
