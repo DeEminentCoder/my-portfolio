@@ -46,6 +46,7 @@ const AboutMe = () => {
             </h2>
             <span className="text-white ">
               Hello, my name is Kehinde Olaleye, and I'm a front-end engineer
+              and Javascript (React.js). I also have experience with Bootstrap,
               Tailwind, WordPress, SEO, and Figma. I'm passionate about creating
               user-friendly and visually appealing websites that meet the needs
               of my clients. I'm also a strong believer in the importance of
