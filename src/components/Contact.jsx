@@ -234,7 +234,6 @@ const Contact = () => {
               <span className="h4">m</span>
               <span className="h4">i</span>
               <span className="h4">n</span>
-              <span className="h4">e</span>
               <span className="h4">n</span>
               <span className="h4">t</span>
               <span className="h4">C</span>
