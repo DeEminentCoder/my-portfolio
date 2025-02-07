@@ -199,7 +199,7 @@ const Contact = () => {
         <label htmlFor="message" className="form-label">
           <i className="fa fa-edit"></i> Message
         </label>
-        <div classddName="input-wrapper">
+        <div classdName="input-wrapper">
           <textarea
             name="message"
             id="message"
