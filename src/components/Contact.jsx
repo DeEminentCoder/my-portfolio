@@ -214,7 +214,7 @@ const Contact = () => {
       <button className="btn btn-success bg-gradient w-100 send-button text-center" type="submit">
         <div className="alt-send-button text-center">
           <i className="fa fa-paper-plane"></i>
-          <span className="send-text">SEND</span>
+          <span className="s8end-text">SEND</span>
         </div>
       </button>
     </form>
@@ -225,6 +225,7 @@ const Contact = () => {
       {/* FOOTER */}
 
       <footer className="footer bg-dark-subtle py-3 m-0">
+        <div className="container d-flex align-content-center justify-content-between ">
           <a className="navbar-brand" href="#">
             <div className="" id="logo">
               <span className="h4">D</span>
