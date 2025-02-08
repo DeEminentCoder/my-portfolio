@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <>
       <div id="Contact" className="p-lg-5 bg-dark">
-        <section
+        <secion
           className="hidden contact p-5 align-content-center justify-content-center d-sm-grid "
           id="contact"
         >
@@ -219,8 +219,8 @@ const Contact = () => {
       </button>
     </form>
 
-        </section>
-      </div>
+        </secion>
+      </div
 
       {/* FOOTER */}
 
@@ -229,7 +229,7 @@ const Contact = () => {
           <a className="navbar-brand" href="#">
             <div className="" id="logo">
               <span className="h4">D</span>
-              <span className="h4">e</span>
+              <span clasName="h4">e</span>
               <span className="h4">E</span>
               <span className="h4">m</span>
               <span className="h4">i</span>
