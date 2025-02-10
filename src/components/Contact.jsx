@@ -201,6 +201,7 @@ const Contact = () => {
         </label>
         <div className="input-wrapper">
           <textarea
+            name="message"
             id="message"
             required
             placeholder="Write message..."
