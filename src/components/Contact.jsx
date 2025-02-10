@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <>
       <div id="Contact" className="p-lg-5 bg-dark">
-        <secion
+        <section
           className="hidden contact p-5 align-content-center justify-content-center d-sm-grid "
           id="contact"
         >
@@ -197,7 +197,6 @@ const Contact = () => {
       </div>
       <div className="form-wrapper">
         <label htmlFor="message" className="form-label">
-          <i className="fa fa-edit"></i> Message
         </label>
         <div className="input-wrapper">
           <textarea
@@ -219,8 +218,8 @@ const Contact = () => {
       </button>
     </form>
 
-        </secion>
-      </div
+        </section>
+      </div>
 
       {/* FOOTER */}
 
@@ -229,7 +228,7 @@ const Contact = () => {
           <a className="navbar-brand" href="#">
             <div className="" id="logo">
               <span className="h4">D</span>
-              <span clasName="h4">e</span>
+              <span className="h4">e</span>
               <span className="h4">E</span>
               <span className="h4">m</span>
               <span className="h4">i</span>
