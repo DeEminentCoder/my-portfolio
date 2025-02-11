@@ -195,7 +195,7 @@ const Contact = () => {
           />
         </div>
       </div>
-      <div className="form-wrapper">ccc
+      <div className="form-wrapper">cc
         <label htmlFor="message" className="form-label">
           <i className="fa fa-edit"></i> Message
         </label>
