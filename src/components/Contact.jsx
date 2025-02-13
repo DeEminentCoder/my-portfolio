@@ -195,7 +195,7 @@ const Contact = () => {
           />
         </div>
       </div>
-      <div className="form-wrapper">io9k
+      <div className="form-wrapper">io9
         <label htmlFor="message" className="form-label">
           <i className="fa fa-edit"></i> Message
         </label>
