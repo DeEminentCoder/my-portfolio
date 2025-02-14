@@ -85,7 +85,7 @@ const Contact = () => {
                 <div className="wrapper m-0">
                   <h3 className="h4 contact-item-title my-0">Phone:</h3>
                   <a href="tel:08103739480" className="contact-info">
-                    (234) 810 373 9480 nn
+                    (234) 810 373 9480 n
                   </a>
 
                   <a href="tel:08159725758" className="contact-info">
