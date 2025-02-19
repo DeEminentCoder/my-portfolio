@@ -89,7 +89,7 @@ const Contact = () => {
                   </a>
 
                   <a href="tel:08159725758" className="contact-info">
-                    (234) 815 972 5758 uiopoo
+                    (234) 815 972 5758 uiopo
                   </a>
                 </div>
               </li>
