@@ -79,13 +79,13 @@ const Contact = () => {
 
               <li className="contact-list-item">
                 <div className="contact-item-icon">
-                  <i className="fa fa-phone"></i>
+                  <i className="fa fa-phone"></i>jkjknj
                 </div>
 
                 <div className="wrapper m-0">
                   <h3 className="h4 contact-item-title my-0">Phone:</h3>
                   <a href="tel:08103739480" className="contact-info">
-                    (234) 810 373 9480 age to c
+                    (234) 810 373 9480
                   </a>
 
                   <a href="tel:08159725758" className="contact-info">
