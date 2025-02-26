@@ -80,7 +80,7 @@ const Contact = () => {
               <li className="contact-list-item">
                 <div className="contact-item-icon">
                   <i className="fa fa-phone"></i>jkjkn
-                </div>
+                </div
 
                 <div className="wrapper m-0">
                   <h3 className="h4 contact-item-title my-0">Phone:</h3>
