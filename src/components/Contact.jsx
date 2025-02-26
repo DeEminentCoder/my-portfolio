@@ -79,7 +79,7 @@ const Contact = () => {
 
               <li className="contact-list-item">
                 <div className="contact-item-icon">
-                  <i className="fa fa-phone"></i>jkjknj
+                  <i className="fa fa-phone"></i>jkjkn
                 </div>
 
                 <div className="wrapper m-0">
