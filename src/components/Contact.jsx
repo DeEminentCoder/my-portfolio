@@ -29,7 +29,7 @@ const Contact = () => {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify(formData),CVC
+          body: JSON.stringify(formData),CV
         });
   
         if (response.ok) {
