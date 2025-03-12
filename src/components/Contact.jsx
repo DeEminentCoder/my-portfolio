@@ -3,7 +3,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import "../Contact.css";
-99
+9
 const Contact = () => {
     const [formData, setFormData] = useState({
       name: '',
