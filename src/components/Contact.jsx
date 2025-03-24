@@ -10,7 +10,7 @@ const Contact = () => {
       phone: '',
       message: '',
     });
-  MCSNNN
+  MCSNN
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
