@@ -10,7 +10,6 @@ const Contact = () => {
       phone: '',
       message: '',
     });
-  .App 
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
