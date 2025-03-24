@@ -10,7 +10,7 @@ const Contact = () => {
       phone: '',
       message: '',
     });
-  M 
+  M.AutoInit();
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
