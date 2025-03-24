@@ -10,7 +10,8 @@ const Contact = () => {
       phone: '',
       message: '',
     });
-  .Au
+  .App {
+    font-family: 'Roboto', sans-serif;
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
