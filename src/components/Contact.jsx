@@ -11,7 +11,6 @@ const Contact = () => {
       message: '',
     });
   .App {
-    font-family: 'Roboto', sans-serif;
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
