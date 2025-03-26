@@ -16,7 +16,7 @@ const Contact = () => {
         ...prevData,
         [name]: value,
       }));
-    };x
+    };xcss
   
     const handleSubmit = async (e) => {
       e.preventDefault(); // Prevent the default form submission behavior
