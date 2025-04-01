@@ -17,7 +17,7 @@ const Contact = () => {
         [name]: value,
       }));
     };
-  
+  thos unger isFinite
     const handleSubmit = async (e) => {
       e.preventDefault(); // Prevent the default form submission behavior
   
