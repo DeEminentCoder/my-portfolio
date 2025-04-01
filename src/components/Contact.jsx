@@ -17,8 +17,7 @@ const Contact = () => {
         [name]: value,
       }));
     };
-  thos unger is a function that handles the form submission. It prevents the default form submission behavior, sends the form data to the server using the Fetch API, and handles the response.
-  // It uses async/await syntax to handle asynchronous operations.
+  thos unger is a function that handles the form submission. It prevents the default form submission behavior, sends the form data to the server using the Fetch API, and handles the response.+
     const handleSubmit = async (e) => {
       e.preventDefault(); // Prevent the default form submission behavior
   
