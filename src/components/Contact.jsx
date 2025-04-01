@@ -21,7 +21,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
       e.preventDefault(); // Prevent the default form submission behavior
   
-      try {
+      try {+
         const response = await fetch('http://localhost:5000/send-email', {
           method: 'POST',
           headers: {
