@@ -9,7 +9,7 @@ const Contact = () => {
       email: '',
       phone: '',
       message: '',
-    });<NNMM></NNMM
+    });<NNM></NNM
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
