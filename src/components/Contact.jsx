@@ -9,14 +9,14 @@ const Contact = () => {
       email: '',
       phone: '',
       message: '',
-    });<NNM,></NNM,
+    });
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
         ...prevData,
         [name]: value,
       }));
-    };
+    };saaas
   
     const handleSubmit = async (e) => {
       e.preventDefault(); // Prevent the default form submission behavior
