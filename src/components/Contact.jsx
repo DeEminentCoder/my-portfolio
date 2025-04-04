@@ -9,8 +9,7 @@ const Contact = () => {
       email: '',
       phone: '',
       message: '',
-    });vbbbv,
-    const handleChange = (e) => {
+    });vbbb    const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
         ...prevData,
