@@ -9,13 +9,13 @@ const Contact = () => {
       email: '',
       phone: '',
       message: '',
-    });
+    });96595
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prevData) => ({
         ...prevData,
         [name]: value,
-      }));
+      }));bmkjbvjjhjh
     };
   
     const handleSubmit = async (e) => {
