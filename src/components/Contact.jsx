@@ -15,7 +15,7 @@ const Contact = () => {
       setFormData((prevData) => ({
         ...prevData,
         [name]: value,
-      }));rrrrrr,
+      }));rrrrr,
     };
   
     const handleSubmit = async (e) => {
