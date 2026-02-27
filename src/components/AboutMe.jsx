@@ -45,14 +45,7 @@ const AboutMe = () => {
               I'm A Certified Front-End Developer
             </h2>
             <span className="text-white ">
-              Hello, my name is Kehinde Olaleye, and I'm a front-end engineer
-              specializing in building modern web experiences with HTML, CSS,
-              and Javascript (React.js). I also have experience with Bootstrap,
-              Tailwind, WordPress, SEO, and Figma. I'm passionate about creating
-              user-friendly and visually appealing websites that meet the needs
-              of my clients. I'm also a strong believer in the importance of
-              continuous learning and staying up to date with the latest trends
-              and technologies in the web development field.
+              Frontend developer with 5+ years of experience in creating scalable, responsive, and user-focused web applications using React.js. I design and implement the SaaS dashboard interface. Proficient in frontend architecture, API integration, testing, documentation, and cross-functional collaboration. Demonstrated ability to deliver dependable solutions in remote, Agile, and fast-paced environments while ensuring consistent, reusable UI components.
             </span>
             <div className="row p-3 d-flex align-content-start justify-content-start gap-3">
               <a

@@ -10,7 +10,7 @@ const Skills = () => {
         className="section bg-dark bg-gradient shadow-lg text-center text-light p-5"
       >
         <h1 className="hidden display-3">My SKills</h1>
-        <h6 className="hidden display-6 px-lg-5 fs-6">
+        <h6 className="hidden display-6 px-lg-5 fs-6 text-center">
           I utilize my creativity and technical expertise to solve problems with
           attention to detail, ensuring effective communication and fostering
           adaptability and team work, all while maintaining a keen understanding

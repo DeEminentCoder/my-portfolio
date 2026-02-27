@@ -14,6 +14,54 @@ const Projects = () => {
       <div className="row d-flex justify-content-center align-items-center p-5 gap- container-fluid m-0">
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card">
+            <img className="card__background" src="waste.png" alt="" />
+            <div className="card__content | flow p-4 ">
+              <div className="card__content--container | flow">
+                <h2 className="card__title">Waste Up (Waste Scheduler Web App)</h2>
+              </div>
+              <div className="card__button d-flex align-items-center justify-content-center social">
+                <a
+                  target="_blank"
+                  href="https://cleanoyo.netlify.app/"
+                >
+                  <i className="fa fa-link " aria-hidden="true"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/CleanOyo"
+                >
+                  <i className="fa fa-file-code-o" aria-hidden="true"></i>
+                </a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div className="hidden col col-lg-6 pb- mb-4">
+          <div className="card">
+            <img className="card__background" src="kole.png" alt="" />
+            <div className="card__content | flow p-4 ">
+              <div className="card__content--container | flow">
+                <h2 className="card__title">Cleaning Service Booking Site</h2>
+              </div>
+              <div className="card__button d-flex align-items-center justify-content-center social">
+                <a
+                  target="_blank"
+                  href="https://kolekodotin.netlify.app"
+                >
+                  <i className="fa fa-link " aria-hidden="true"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/DeEminentCoder/KoleKoDotin"
+                >
+                  <i className="fa fa-file-code-o" aria-hidden="true"></i>
+                </a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div className="hidden col col-lg-6 pb- mb-4">
+          <div className="card">
             <img className="card__background" src="techcare.png" alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
@@ -36,7 +84,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="hidden col col-lg-6 pb- mb-4">
+        
+        {/* <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card">
             <img className="card__background" src="de.jpg" alt="" />
             <div className="card__content | flow p-4 ">
@@ -59,7 +108,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
             <img className="card__background" src="wee.png" alt="" />

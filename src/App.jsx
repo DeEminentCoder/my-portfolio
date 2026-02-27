@@ -10,7 +10,7 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import { Routes, Route, Navigate } from "react-router-dom";
-import NotFound from "./components/NotFound.jsx";
+import NotFound from "./components/Notfound.jsx";
 import "./AboutMe.css";
 
 const App = () => {
