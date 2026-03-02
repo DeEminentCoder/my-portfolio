@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useRef, useEffect } from 'react';
 import "../Hero.css";
 import '../scrollanim.js'
@@ -33,15 +34,13 @@ const Hero = () => {
       <div id='Hero' className="hero-container row p-2 display-1 ps-lg-5 gap-4 container-fluid m-0 d-sm-grid d-md-grid d-lg-flex">
         <div className="hidden hero-left col p-lg-5 my-lg-2 text-center text-lg-start p-sm-5 m-sm- ">
           <span className="hero-left-text">
-            Hello!<span className="wave">👋 </span> I'm Kehinde Olaleye
+            Hello!<span className="wave">👋 </span> I&apos;m Kehinde Olaleye
           </span>
           <br />
           <span className="hidden hero-left-text2 ">A Front-End Engineer 👨‍💻</span>
           <br />
           <h6 className="hero-left-text3">
-            Developing Modern, Responsive Web Applications Using HTML5
-            <i className="fa fa-html5">,</i> CSS3<i className="fa fa-css3">, </i> and
-            Javascript(React.js) <i className="bi bi-filetype-jsx"> </i>
+            Developing Modern, Responsive Web Applications Using React.js <i className="bi bi-filetype-jsx"> </i>
           </h6>
           <a href="#" target="_blank" className="hidden btn text-light hire-me-btn">Hire Me</a>
           {/* Assign the element to the ref */}
